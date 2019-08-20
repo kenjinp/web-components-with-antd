@@ -1,0 +1,43 @@
+{
+  "name": "rollup-antd-library-typescript",
+  "version": "0.1.0",
+  "description": "TypeScript Component Library using Ant Design and Rollup",
+  "main": "dist/lib.js",
+  "module": "dist/lib.es.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/lib.d.ts",
+  "scripts": {
+    "start": "webpack",
+    "build": "parcel build src/index.ts --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrStevenHill/rollup-antd-library-typescript.git"
+  },
+  "author": "Steve Hill",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "babel-plugin-import": "^1.12.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.1.0",
+    "less": "^2.7.1",
+    "less-loader": "^5.0.0",
+    "parcel-bundler": "^1.6.1",
+    "parcel-plugin-bundle-visualiser": "^1.2.0",
+    "style-loader": "^0.23.1",
+    "ts-import-plugin": "^1.6.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "antd": "^3.20.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
